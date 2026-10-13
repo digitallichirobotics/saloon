@@ -1,0 +1,18 @@
+@"
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/
+apps/api/dist/
+apps/api/coverage/
+apps/api/.env
+apps/web/.env.local
+"@ | Set-Content -Path ".gitignore" -Encoding utf8
